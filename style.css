@@ -1,0 +1,32 @@
+/*navbar styles section start*/
+.bi-bag-heart{
+    color: black;
+}
+.loginbut{
+    border-radius: 5px;
+    background-color:blueviolet;  /*login/signup button style*/
+    color: white;
+    
+}
+.bar:hover{
+    color: red;
+    font-weight:600; /*navbar links hover*/
+}
+.loginbut:hover{
+    box-shadow: 3px 3px 5px cornflowerblue; /*login/signup button  hover*/
+}
+/*navbar styles section end*/
+
+/*feed-section styles section start*/
+.feedimg{
+    border-radius: 50%;
+}
+.feedimg:hover{ 
+     border:2px solid green;  
+}
+
+/*feed-section styles section end*/
+.war-m{
+    border-radius: 8px;
+}
+/*warning-section styles section start*/
