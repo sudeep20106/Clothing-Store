@@ -29,9 +29,47 @@
 .war-m{
     border-radius: 8px;
 }
-.threadtheory{
-    background-color:antiquewhite;
-    border-radius: 8px;
-    padding: 0.5px;
+/*faq-section styles section start*/
+.faqmain{
+    border: 4px solid rosybrown;
+    border-radius: 4px;
 }
-/*warning-section styles section start*/
+.butcol{
+    background-color: bisque;
+}
+/*faq-section styles section end*/
+
+/*footer-section styles section start*/
+.brand-img-footer{
+ width: 120px;
+ height: 60px;
+ border-radius: 8px;
+}
+.move{
+    transition: all 0.2s ease;
+    display: inline-block;
+    
+}
+.move:hover{
+    transform: translateY(5px);
+    
+}
+.footer-title{
+    color: brown;
+}
+.footer-link{
+    text-decoration: none;
+    color: rgb(112, 112, 222);
+}
+.footer-link:hover{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conf{
+    color: rgb(112, 112, 222);
+}
+.conf:hover{
+   color: aliceblue;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+/*footer-section styles section end*/
