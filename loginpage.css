@@ -51,6 +51,7 @@ body{
     height: 300px;
     margin-right: 25px;
     border-radius: 5px;
+    
 
 }
 .form-layout{
@@ -63,6 +64,58 @@ body{
 *{
     box-sizing: border-box;
 }
+
+
+.form-section {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+input.one,
+input.two {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid #fff;
+    color: white;
+    padding-left: 12px;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+input.one:focus,
+input.two:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid #00ffff;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+input[type="checkbox"] {
+    margin-top: 20px;
+    transform: scale(1.2);
+}
+
+.but {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+}
+
+.but:hover {
+    background: linear-gradient(to right, #00f2fe, #4facfe);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
 @media screen and (min-width:100px) and (max-width:576px){
     .form-layout{
     display: flex;
