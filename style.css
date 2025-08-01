@@ -109,7 +109,7 @@
         border: solid 2px red;
         margin-bottom: 10px;
         border-radius: 5px;
-        background-color: beige;
+        background-color: #f3f4f6;
     }
     .sizebut{
         display: flex;
@@ -118,6 +118,15 @@
     }
     .know-your-size{
         padding: 5px;
-        color:cornsilk
+        color:cornsilk;
     }
-    /*know your size-section styles section end*/
+/*know your size-section styles section end*/
+
+/*model card-section styles section starts*/
+.cardimgstyle{
+    border-radius: 50%;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+/*model card-section styles section ends*/

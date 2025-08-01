@@ -1,5 +1,5 @@
 body{
-   background-color: black;
+   background: linear-gradient(135deg, #1f1c2c, #928dab);
     
 }
   
@@ -33,7 +33,7 @@ body{
     font-weight: bold;
     width: 150px;
     height: 40px;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 .text{
     font-weight: bold;
